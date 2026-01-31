@@ -1,0 +1,33 @@
+.dashboard.hit {
+  box-shadow: 0 0 25px crimson;
+  transform: scale(1.02);
+}
+
+.ability-btn:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+.abilities { margin-top: 20px; display: grid; gap: 12px; }
+
+.ability button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  background: #dc2626;
+  color: #fff;
+  cursor: pointer;
+}
+
+.cd {
+  height: 6px;
+  background: #1e293b;
+  border-radius: 6px;
+  overflow: hidden;
+  margin-top: 6px;
+}
+
+.cd div {
+  height: 100%;
+  background: #22c55e;
+  transition: width 0.1s linear;
+}
