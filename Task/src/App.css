@@ -1,0 +1,20 @@
+div{
+  justify-content: center;
+  align-items: center;
+}
+
+
+form{
+  height: 300px;
+  width: 350px;
+  background-color: black;
+  color: white;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  text-align: center;
+  margin-top: 50px;
+}
+
